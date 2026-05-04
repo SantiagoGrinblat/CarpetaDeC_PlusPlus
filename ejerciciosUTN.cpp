@@ -1,6 +1,62 @@
 #include <iostream>
 
+// bool esCapicua(int n) {
+//   int a = n / 100000;
+//   int b = n / 10000 % 10;
+//   int c = n / 1000 % 10;
+//   int d = n / 100 % 10;
+//   int e = n / 10 % 10;
+//   int f = n % 10;
+
+//   if(a == f && b == e && c == d) {
+//       return true;
+//   } else {
+//       return false;
+//   }
+// }
+
+// bool esCapicua(int n) {
+//     int original = n;
+//     int invertido = 0;
+//     int resto;
+
+//     while (n > 0) {
+//         resto = n % 10;
+//         invertido = (invertido * 10) + resto;
+//         n = n / 10;
+//     }
+
+//     return (original == invertido); 
+// }
+
+// void division(int dividendo, int divisior, int &cociente, int &resto) {
+//     cociente = dividendo / divisior;
+//     resto = dividendo % divisior;
+// }
+
 int main() {
+
+    // int a = 17, b = 5, c, d;
+    // division(a, b, c, d);
+    // std::cout << c << ", Resto: " << d << std::endl;
+    // division(c, d, c, d);
+    // std::cout << c << ", Resto: " << d << std::endl;
+    // return 0;
+
+    // int numero;
+    // std::cout << "Ingresa un numero para verificar: ";
+    // std::cin >> numero;
+
+    // if (esCapicua(numero)) {
+    //     std::cout << "¡Es capicua!" << std::endl;
+    // } else {
+    //     std::cout << "No es capicua." << std::endl;
+    // }
+
+    // return 0;
+    
+
+
   //aca en el codigo real es asi
   // int numero1 = 3;
   // int valorAlCuadrado = numero1 * numero1;
@@ -14,7 +70,7 @@ int main() {
 
   //aca el ejemplo real del numero par o impar es asi
   // int numero2 = 2;
-  // if (numero2 % 2 == 0)
+  // if (numero2 % 2 != 0)
   // {
   //   std::cout << "El numero " << numero2 << " es par" << std::endl;
   // } else {
